@@ -1,7 +1,7 @@
-/* *{
+*{
   border:1px solid black;
   
-} */
+}
 
 
 
@@ -60,7 +60,7 @@ ul {
   display:flex;
   flex-flow: row wrap;
   flex-basis:350px;
-  max-width:350px;
+  max-width:400px;
   max-height:75px;
   flex:1;
 
@@ -91,7 +91,7 @@ ul {
   display: flex;
   flex-flow:row wrap;
   justify-content:space-between;
-  padding: 0 48px;
+  padding: 48px 48px;
 }
 /* part 1 */
 
@@ -140,6 +140,12 @@ ul {
   margin-right: 52px;
 } */
 
+.color {
+  background-color: #cfc4c4;
+  padding:20px;
+  padding-bottom:60px;
+}
+
 .flex {
   flex-basis:auto;
   display:flex;
@@ -152,14 +158,19 @@ ul {
 .flex .title{
   justify-content: center;
   align-items: center;
-  margin: 20px 0;
+  font-family:sans-serif;
+  margin-bottom:20px;
+  font-style:Roboto;
+  font-weight:900;
+  font-size:36px;
+  color:#1F2937
 }
 
 .flex p {
   flex: 1 1 auto;
   align-self:center;
   justify-content:center;
-
+  font-size:16px;
 }
 
 .flex img {
@@ -168,9 +179,75 @@ ul {
 }
 
 .containerpart2{
-  width:125px;
-  height:200px;
+  width:170px;
+  height:170px;
   align-self:flex-start;
   text-align: center;
 margin: 0;
 }
+
+/*
+part 3
+*/
+
+.quote0{
+  display:flex;
+  justify-content:center;
+  background-color: #E5E7EB;
+
+}
+.quote{
+  padding: 100px 0;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  width:500px;
+  background-color: #E5E7EB;
+}
+.quote .quoteText{
+  font-size:36px;
+  font-style:  italic;
+  font-weight:lighter;
+  align-self:center;
+}
+
+.quote .quotedPerson{
+  font-weight:bold;
+  align-self:flex-end;
+}
+
+/*
+part 4
+*/
+
+.SignUp{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SignUpForm{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:40px;
+
+  
+}
+
+.SignUpForm .SignUpInfo{
+  align-self:column;
+}
+
+.SignUpForm .SignUpButton{
+
+}
+
+.SignUpInfo .Action{
+
+}
+
+.SignUpInfo .ActionInfo{
+
+}
+
