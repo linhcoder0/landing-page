@@ -1,83 +1,128 @@
 *{
-    border:1px solid black;
-    
+  border:1px solid black;
+  
 }
 
+
+
 a {
-    display:flex;
-    /* this removes the line under our links */
-    text-decoration: none;
-    color: rebeccapurple;
-    align-self:flex-end;
-    flex-grow:1;
-    gap:8px;
-  }
+  display:flex;
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: rebeccapurple;
+  align-self:flex-end;
+  flex-grow:1;
+  gap:8px;
+}
 
-  ul {
-    color: rebeccapurple;
-    list-style-type: none;
-    display:flex;
-    margin:0;
-    padding:0;
-    align-self: center;
-    gap:16px;
-  }
-  
-  .header{
-    display:flex;
-    justify-content:space-between;
-    margin-left:48px;
-    margin-right:48px;
-  }
+ul {
+  color: rebeccapurple;
+  list-style-type: none;
+  display:flex;
+  margin:0;
+  padding:0;
+  align-self: center;
+  gap:16px;
+}
 
-  /* part 1 */
+.header{
+  display:flex;
+  justify-content:space-between;
+  margin-left:48px;
+  margin-right:48px;
+}
+
+/* part 1 */
 
 .body1{
-    display:flex;
-    flex-direction: column;
-    margin-left:48px;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  margin:0;
+  padding:0;
 
-
+  /* width:300px; */
 } */
 
- .header2{
-    display:flex;
-      flex-flow: row wrap;
-    flex-basis:300px;
-    font-size:32px;
-    max-width:300px;
-    min-height:auto;
-    margin:0;
-    flex:1;
+
+.header2{
+  display:flex;
+    flex-flow: row wrap;
+  /* flex-basis:300px; */
+  font-size:32px;
+  /* max-width:300px; */
+  min-height:auto;
+  margin:0;
+  flex:1;
 }
 
 .text{
-    display:flex;
-    flex-flow: row wrap;
-    flex-basis:350px;
-    max-width:350px;
-    min-height:auto;
-    flex:1;
+  display:flex;
+  flex-flow: row wrap;
+  flex-basis:350px;
+  max-width:350px;
+  max-height:75px;
+  flex:1;
+
 }
 
 .button{
-    display:flex;
-    border: none;
-    border-radius: 8px;
-    background: rebeccapurple;
-    color: white;
-    padding: 8px 24px;
-    width:96px;
+  display:flex;
+  border: none;
+  border-radius: 8px;
+  background: rebeccapurple;
+  color: white;
+  padding: 8px 24px;
+  width:96px;
 }
 
-.image{
-    display:flex;
+.chessimg{
+  display:inline-block;
+  width:300px;
+  height:300px;
+  border:5px solid red;
 }
 
-.body0{
-    display:flex;
-    justify-content:center;
-    align-content:center
+.container{
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  color: #333;
+  /* I'll give you this one for free lol */
+  display: flex;
+  flex-flow:row wrap;
+  justify-content:space-between;
+  padding: 0 48px;
 }
 /* part 1 */
 
+.container2{
+  flex-basis:auto;
+  display:flex;
+  /* flex-direction: column;  */
+  justify-content: center;
+  align-items: center;
+  background-color: #bdb5b5;
+}
+
+.container2 .headerB{
+  justify-content: center;
+  align-items: center;
+}
+
+.containerB{
+  width:200px;
+  align-self:flex-start;
+  text-align: center;
+  margin-right: 52px;
+}
+
+.imgcontainer{
+  border:2px solid red;
+  border-radius: 25%;
+  padding: 1px;
+  overflow: hidden;
+}
+.container2 .text{
+  flex: 1 1 auto;
+
+}
