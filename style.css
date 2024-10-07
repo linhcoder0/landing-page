@@ -5,11 +5,11 @@
 
 
 
-a {
+.links a {
   display:flex;
   /* this removes the line under our links */
   text-decoration: none;
-  color: rebeccapurple;
+  color: black;
   align-self:flex-end;
   flex-grow:1;
   gap:8px;
@@ -28,8 +28,16 @@ ul {
 .header{
   display:flex;
   justify-content:space-between;
-  margin-left:48px;
-  margin-right:48px;
+  /* margin-left:48px;
+  margin-right:48px; */
+  padding: 0 48px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.header .logo {
+  font-size:24px;
+  font-weight:bold;
 }
 
 /* part 1 */
@@ -92,11 +100,47 @@ ul {
   padding: 48px 48px;
 } */
 
+.hero0 {
+display:flex;
+flex-flow:row wrap;
+align-content:center;
+justify-content: space-between;
+padding:48px;
+}
 
+.hero0 .hero {
+  display:flex;
+  flex-direction: column;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  align-self:center;
+}
 
+.hero .heroHeader{
+  font-weight:900;
+  font-size:48px;
+  width:400px;
+}
 
+.hero .heroInfo{
+  width:400px;
+}
 
+.hero .button{
+  margin-top: 8px;
+  display:flex;
+  border: none;
+  border:1px solid white;
+  border-radius: 8px;
+  background: black;
+  color: white;
+  padding: 8px 24px;
+  width:105px;
+  font-weight:bold;
+}
 
+.hero0 img {
+
+}
 
 
 
@@ -156,6 +200,7 @@ part 2
 }
 
 .flex {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   flex-basis:auto;
   display:flex;
   /* flex-direction: column;  */
@@ -184,7 +229,7 @@ part 2
 
 .flex img {
   border-radius:25px;
-  border:2px solid red;
+  border:2px solid black;
 }
 
 .containerpart2{
@@ -206,6 +251,8 @@ part 3
 
 }
 .quote{
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
   padding: 100px 0;
   display:flex;
   flex-direction:column;
@@ -216,7 +263,7 @@ part 3
 .quote .quoteText{
   font-size:36px;
   font-style:  italic;
-  font-weight:lighter;
+  font-weight:100;
   align-self:center;
 }
 
@@ -237,13 +284,13 @@ part 4
 }
 
 .SignUpForm{
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   border-radius: 8px;
-
   display:flex;
   justify-content: space-between;
   align-items: center;
   padding:40px;
-  background-color: #3882F6;
+  background-color: black;
   width:800px;
 }
 
@@ -258,7 +305,7 @@ part 4
   border: none;
   border:1px solid white;
   border-radius: 8px;
-  background: #3882F6;
+  background: black;
   color: white;
   padding: 8px 24px;
   width:105px;
@@ -273,5 +320,22 @@ part 4
 .SignUpInfo .ActionInfo{
   color:white;
 
+}
+
+.footer {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  height: 72px;
+  background: #eee;
+  color: black;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+
+
+}
+
+.footer a{
+  text-decoration: none;
+  color: blue;
 }
 
