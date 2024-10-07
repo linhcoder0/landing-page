@@ -1,7 +1,7 @@
-*{
+/* *{
   border:1px solid black;
   
-}
+} */
 
 
 
@@ -34,35 +34,34 @@ ul {
 
 /* part 1 */
 
-.body1{
+/* .body1{
   display:flex;
   flex-direction: column;
   justify-content:center;
   margin:0;
   padding:0;
+  
 
-  /* width:300px; */
-} */
+}  */
 
 
-.header2{
+/* .header2{
   display:flex;
     flex-flow: row wrap;
-  /* flex-basis:300px; */
   font-size:32px;
-  /* max-width:300px; */
   min-height:auto;
   margin:0;
   flex:1;
-}
+} */
 
-.text{
+/* .text{
   display:flex;
   flex-flow: row wrap;
   flex-basis:350px;
   max-width:400px;
   max-height:75px;
   flex:1;
+
 
 }
 
@@ -87,13 +86,23 @@ ul {
   font-family: Roboto, sans-serif;
   margin: 0;
   color: #333;
-  /* I'll give you this one for free lol */
   display: flex;
   flex-flow:row wrap;
   justify-content:space-between;
   padding: 48px 48px;
-}
-/* part 1 */
+} */
+
+
+
+
+
+
+
+
+
+/* 
+part 2 
+*/
 
 .container2{
   flex-basis:auto;
@@ -221,33 +230,48 @@ part 4
 */
 
 .SignUp{
+  padding:100px 0;
   display:flex;
   justify-content: center;
   align-items: center;
 }
 
 .SignUpForm{
+  border-radius: 8px;
+
   display:flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding:40px;
-
-  
+  background-color: #3882F6;
+  width:800px;
 }
 
 .SignUpForm .SignUpInfo{
   align-self:column;
+  margin-left:10px;
 }
 
-.SignUpForm .SignUpButton{
-
+.SignUpForm .button{
+  margin-right:40px;
+  display:flex;
+  border: none;
+  border:1px solid white;
+  border-radius: 8px;
+  background: #3882F6;
+  color: white;
+  padding: 8px 24px;
+  width:105px;
+  font-weight:bold;
 }
 
 .SignUpInfo .Action{
-
+  font-weight:bold;
+  color:white;
 }
 
 .SignUpInfo .ActionInfo{
+  color:white;
 
 }
 
